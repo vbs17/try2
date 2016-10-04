@@ -83,7 +83,6 @@
                         <outlet property="goButton" destination="EKc-zg-SIZ" id="fdl-8B-cgV"/>
                         <outlet property="imageView" destination="4Na-un-GRb" id="9eW-2Z-4Em"/>
                         <outlet property="play" destination="KIx-E9-Qre" id="KqP-dx-gEX"/>
-                        <outlet property="playButton" destination="4p8-ic-Tdf" id="fnb-Nx-mrH"/>
                         <segue destination="9D5-Ce-bqe" kind="show" identifier="second" id="vqi-cj-lAt"/>
                     </connections>
                 </viewController>
