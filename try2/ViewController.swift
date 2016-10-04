@@ -98,49 +98,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwind(segue: UIStoryboardSegue) {
+        if timer == nil{
+            onUpdate()
+        }
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
-        
         let secondViewController:SecondViewController = segue.destinationViewController as! SecondViewController
-        
         secondViewController.image = imageView.image
+        timer?.invalidate()
+        timer = nil
     }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 
 }
