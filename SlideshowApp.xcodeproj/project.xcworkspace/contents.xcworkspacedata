@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:try2.xcodeproj">
+      location = "self:/Users/sister/Documents/try2/SlideshowApp.xcodeproj">
    </FileRef>
 </Workspace>

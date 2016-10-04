@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B01D2FBF1DA32C6C00DEA393"
-               BuildableName = "try2.app"
-               BlueprintName = "try2"
-               ReferencedContainer = "container:try2.xcodeproj">
+               BuildableName = "SlideshowApp.app"
+               BlueprintName = "SlideshowApp"
+               ReferencedContainer = "container:SlideshowApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B01D2FBF1DA32C6C00DEA393"
-            BuildableName = "try2.app"
-            BlueprintName = "try2"
-            ReferencedContainer = "container:try2.xcodeproj">
+            BuildableName = "SlideshowApp.app"
+            BlueprintName = "SlideshowApp"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B01D2FBF1DA32C6C00DEA393"
-            BuildableName = "try2.app"
-            BlueprintName = "try2"
-            ReferencedContainer = "container:try2.xcodeproj">
+            BuildableName = "SlideshowApp.app"
+            BlueprintName = "SlideshowApp"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B01D2FBF1DA32C6C00DEA393"
-            BuildableName = "try2.app"
-            BlueprintName = "try2"
-            ReferencedContainer = "container:try2.xcodeproj">
+            BuildableName = "SlideshowApp.app"
+            BlueprintName = "SlideshowApp"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
