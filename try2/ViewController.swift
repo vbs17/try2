@@ -17,9 +17,6 @@ class ViewController: UIViewController {
     
     @IBAction func tap(sender: AnyObject) {
         performSegueWithIdentifier("second", sender: nil)
-        let secondViewController:SecondViewController = sender.destinationViewController as! SecondViewController
-        
-        secondViewController.image = imageView.image
         
     }
     
@@ -29,6 +26,7 @@ class ViewController: UIViewController {
     var timer: NSTimer!
     
     let images = ["IMG_1010","IMG_1694","IMG_1718","IMG_1963","IMG_2131"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,13 +65,13 @@ class ViewController: UIViewController {
             onUpdate()
             goButton.enabled = false
             backButton.enabled = false
-           
+            play.setTitle("Stop", forState: UIControlState())
         }else{
             timer?.invalidate()
             timer = nil
             goButton.enabled = true
             backButton.enabled = true
-           
+            play.setTitle("Play", forState: UIControlState())
         }
     }
     
@@ -102,7 +100,12 @@ class ViewController: UIViewController {
     @IBAction func unwind(segue: UIStoryboardSegue) {
     }
     
-   
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        
+        let secondViewController:SecondViewController = segue.destinationViewController as! SecondViewController
+        
+        secondViewController.image = imageView.image
+    }
 
     
     
